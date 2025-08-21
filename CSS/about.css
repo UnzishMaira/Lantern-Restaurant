@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.about-us {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.about-us h1 {
+  font-size: 2.5em;
+  color: #a56b34;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+
+.about-us .story,
+.about-us .team {
+  margin: 30px 0;
+}
+
+.abt-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #FFD09B;
+  height: 505px;
+}
+
+.abt-team {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.right-section-abt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0%;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.story {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
